@@ -5,3 +5,4 @@
 - Απλή δέσμευση (simple binding) χαρακτηριστικού της κλάσης του component στο template του.
 - Χρήση placeholder `{{<attribute_name}}`
 - Χρήση object σαν χαρακτηριστικό
+- Νέο component "person"
