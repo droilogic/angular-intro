@@ -2,6 +2,7 @@
 
 ## 2023-10-12
 
+- Εμπλουτισμός Input στο component "person"
 - Νέο component "person"
 - Χρήση object σαν χαρακτηριστικό
 - Χρήση placeholder `{{<attribute_name}}`
