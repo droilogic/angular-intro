@@ -10,8 +10,8 @@ import { CommonModule } from '@angular/common';
 })
 export class AppComponent {
   title = '01-intro';
-  firstname: string = "Dimitris";
-  lastname: string = "A.";
+  firstname: string = "John";
+  lastname: string = "Doe";
   person = {
     givenName: 'John',
     surname: 'Doe',
