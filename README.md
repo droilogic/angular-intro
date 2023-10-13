@@ -12,7 +12,7 @@
 
 ## 2023-10-12
 
-- (02) component-input
+### (02) component-input
 - Εμπλουτισμός Input στο component "person"
 - Νέο component "person"
 - Χρήση object σαν χαρακτηριστικό
