@@ -2,7 +2,10 @@
 
 ## 2023-10-13
 
-- (03) component-input-alt
+### (04) loop with ngFor
+- using person array
+
+### (03) component-input-alt
 - alternate component input | undefined
 - *ngIf εμφάνιση υπο συνθήκη στο template
 - ng-container, ng-template
