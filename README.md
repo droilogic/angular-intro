@@ -2,6 +2,15 @@
 
 ## 2023-10-13
 
+### (05) event binding
+- bootstrap `npm i bootstrap`
+- include bootstrap css/js to angular.json (architect section)
+- event-bind component
+- functions to serve events (increaseCounter, resetCounter)
+- userInput (with value as init!) -- two way binding
+- init value can be a plain string within single quotes.
+
+
 ### (04) loop with ngFor
 - using person array
 

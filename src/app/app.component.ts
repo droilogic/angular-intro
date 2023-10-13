@@ -3,12 +3,13 @@ import { CommonModule } from '@angular/common';
 import { PersonComponent } from './person/person.component';
 import { Person } from './interfaces/person';
 import { PersonAltComponent } from './person-alt/person-alt.component';
+import { EvtBindComponent } from './evt-bind/evt-bind.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, PersonComponent, PersonAltComponent],
+  imports: [CommonModule, PersonComponent, PersonAltComponent, EvtBindComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
