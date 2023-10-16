@@ -9,4 +9,13 @@
 <app-person-alt [person]="person2Data"></app-person-alt>
 <app-person-alt *ngFor="let user of users" [person]="user"></app-person-alt> -->
 
-<app-evt-bind></app-evt-bind>
+<!-- <app-evt-bind></app-evt-bind> -->
+
+<app-output-comp
+    [userData]="users"
+    (deleteData)="onDeleteUser($event)"
+    (sendData)="onReceiveUser($event)"
+></app-output-comp>
+<app-person-card
+    [person]="receivedUser"
+></app-person-card>

@@ -4,4 +4,5 @@ export interface Person {
     age: number;
     email: string;
     phone?: string;
+    photoURL?: string;
 }

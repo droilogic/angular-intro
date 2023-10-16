@@ -1,0 +1,28 @@
+<div *ngIf="person; else nodata" class="card" style="width: 18rem;">
+    <img [src]="person.photoURL" class="card-img-top" alt="person image">
+    <div class="card-body">
+        <h5 class="card-title"> {{ person.givenName }} {{ person.surname }}</h5>
+        <div class="card-text">
+            <table class="table">
+                <tr>
+                    <td class="header">Age</td>
+                    <td>{{ person.age}}</td>
+                </tr>
+                <tr>
+                    <td class="header">e-mail</td>
+                    <td>{{ person.email}}</td>
+                </tr>
+                <tr>
+                    <td class="header">Phone</td>
+                    <td>{{ person.phone}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<ng-template #nodata>
+    <div class="alert alert-danger">
+        no data!
+    </div>
+</ng-template>

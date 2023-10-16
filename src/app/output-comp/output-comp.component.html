@@ -1,0 +1,24 @@
+<table class="table">
+    <thead class="table-info">
+        <tr>
+            <th>#</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+            <th colspan="2" class="text-center">actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of userData; index as idx">
+            <td>{{ idx }}</td>
+            <td>{{ user.givenName }}</td>
+            <td>{{ user.surname }}</td>
+            <td>{{ user.age }}</td>
+            <td colspan="2" class="text-center">
+                <button (click)="onSendData(user)" class="btn btn-success btn-sm">SEND</button>
+                ///
+                <button (click)="onDeleteData(idx)" class="btn btn-danger btn-sm">DELETE</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

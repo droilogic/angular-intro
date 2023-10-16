@@ -1,5 +1,13 @@
 # Εισαγωγή στο Angular framework
 
+## 2023-10-16
+
+### (06) output component
+- emmitted events
+- capture events on parent component
+- person card component
+
+
 ## 2023-10-13
 
 ### (05) event binding
