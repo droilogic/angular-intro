@@ -2,6 +2,11 @@
 
 ## 2023-10-16
 
+### (07) template driven forms
+- template-driven-form component
+- validation with ngModel & HTML5
+- form data entry & push to internal array
+
 ### (06) output component
 - emmitted events
 - capture events on parent component
@@ -26,6 +31,7 @@
 - alternate component input | undefined
 - *ngIf εμφάνιση υπο συνθήκη στο template
 - ng-container, ng-template
+
 
 ## 2023-10-12
 

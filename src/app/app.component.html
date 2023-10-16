@@ -11,11 +11,20 @@
 
 <!-- <app-evt-bind></app-evt-bind> -->
 
-<app-output-comp
-    [userData]="users"
-    (deleteData)="onDeleteUser($event)"
-    (sendData)="onReceiveUser($event)"
-></app-output-comp>
-<app-person-card
-    [person]="receivedUser"
-></app-person-card>
+<div class="container d-flex flex-column gap-2">
+    <app-output-comp
+        [userData]="users"
+        (deleteData)="onDeleteUser($event)"
+        (sendData)="onReceiveUser($event)"
+    ></app-output-comp>
+    <app-person-card
+        [person]="receivedUser"
+    ></app-person-card>
+
+    <div class="container">
+        <app-template-driven-form
+            (person)="onNewPerson($event)"
+        >
+        </app-template-driven-form>
+    </div>
+</div>
