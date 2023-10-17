@@ -4,6 +4,7 @@
 
 ### (10) users CRUD
 - create components for each action
+- create dropdown menu (bootstrap)
 
 ### (09) http client and json-server
 - constructor with service injection
