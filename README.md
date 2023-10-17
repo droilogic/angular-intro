@@ -1,5 +1,10 @@
 # Εισαγωγή στο Angular framework
 
+## 2023-10-17
+
+### (08) reactive forms
+- reactive-form component
+
 ## 2023-10-16
 
 ### (07) template driven forms

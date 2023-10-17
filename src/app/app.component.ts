@@ -7,6 +7,7 @@ import { EvtBindComponent } from './evt-bind/evt-bind.component';
 import { OutputCompComponent } from './output-comp/output-comp.component';
 import { PersonCardComponent } from './person-card/person-card.component';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 
 
 @Component({
@@ -18,7 +19,8 @@ import { TemplateDrivenFormComponent } from './template-driven-form/template-dri
     EvtBindComponent,
     OutputCompComponent,
     PersonCardComponent,
-    TemplateDrivenFormComponent
+    TemplateDrivenFormComponent,
+    ReactiveFormComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
