@@ -2,6 +2,12 @@
 
 ## 2023-10-17
 
+### (09) http client and json-server
+- constructor with service injection
+- services
+- app.config.ts: edit to import HttpClient
+- json-server: local file DB server for dev
+
 ### (08) reactive forms
 - reactive-form component
 
