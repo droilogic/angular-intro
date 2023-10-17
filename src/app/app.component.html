@@ -11,7 +11,8 @@
 
 <!-- <app-evt-bind></app-evt-bind> -->
 
-<div class="container d-flex flex-column gap-2">
+
+<!-- <div class="container d-flex flex-column gap-2">
     <app-output-comp
         [userData]="users"
         (deleteData)="onDeleteUser($event)"
@@ -21,16 +22,15 @@
         [person]="receivedUser"
     ></app-person-card>
 
-    <!-- <div class="container">
-        <app-template-driven-form
-            (person)="onNewPerson($event)"
-        >
-        </app-template-driven-form>
-    </div> -->
     <div class="container">
         <app-reactive-form
             (person)="onNewPerson($event)"
         >
         </app-reactive-form>
     </div>
+</div> -->
+
+
+<div class="container mt-2">
+    <app-crud-demo></app-crud-demo>
 </div>

@@ -2,6 +2,9 @@
 
 ## 2023-10-17
 
+### (10) users CRUD
+- create components for each action
+
 ### (09) http client and json-server
 - constructor with service injection
 - services

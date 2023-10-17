@@ -9,6 +9,7 @@ import { PersonCardComponent } from './person-card/person-card.component';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { AppsrvService } from './appsrv.service';
+import { CrudDemoComponent } from './crud-demo/crud-demo/crud-demo.component';
 
 
 @Component({
@@ -21,7 +22,8 @@ import { AppsrvService } from './appsrv.service';
     OutputCompComponent,
     PersonCardComponent,
     TemplateDrivenFormComponent,
-    ReactiveFormComponent
+    ReactiveFormComponent,
+    CrudDemoComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
