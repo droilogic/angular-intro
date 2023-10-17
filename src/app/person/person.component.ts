@@ -11,6 +11,7 @@ import { Person } from '../interfaces/person';
 })
 export class PersonComponent {
   @Input() person: Person = {
+      id: 1,
       givenName: 'givenName',
       surname: 'surname',
       age: 0x0,
