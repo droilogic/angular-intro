@@ -2,6 +2,12 @@
 
 ## 2023-10-23
 
+### (14) users CRUD
+- delete user
+
+### (13) users CRUD
+- create user
+
 ### (12) users CRUD
 - read users
 - πρόσβαση σε template variables μέσω ViewChild
