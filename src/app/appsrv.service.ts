@@ -15,6 +15,10 @@ export class AppsrvService {
     return this.http.get<Person[]>(this.endpoint + '/users');
   }
 
+  getUserById(userId: number) {
+    return this.http.get<Person>(this.endpoint + `/users/${userId}`)
+  }
+
   addUser(user: Person) {
     return this.http.post<Person>(this.endpoint + '/users', user);
   }

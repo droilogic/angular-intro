@@ -1,6 +1,16 @@
 # Εισαγωγή στο Angular framework
 
+## 2023-10-23
+
+### (12) users CRUD
+- read users
+- πρόσβαση σε template variables μέσω ViewChild
+
+
 ## 2023-10-17
+
+### (11) users CRUD
+- list users
 
 ### (10) users CRUD
 - create components for each action
