@@ -14,7 +14,7 @@ import { PersonCardComponent } from 'src/app/person-card/person-card.component';
 export class ReadUserComponent {
 
   foundUser: Person | undefined;
-  userNotFound = false;;
+  userNotFound = false;
 
   @ViewChild('userId') userIdInput!: ElementRef<HTMLInputElement>
 

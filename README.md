@@ -3,7 +3,9 @@
 ## 2023-10-23
 
 ### (14) users CRUD
+- alternate delete implementation (avoid using service; direct injection of httpclient)
 - delete user
+- looks like branch 12
 
 ### (13) users CRUD
 - create user

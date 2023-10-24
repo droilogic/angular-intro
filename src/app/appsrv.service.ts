@@ -22,4 +22,8 @@ export class AppsrvService {
   addUser(user: Person) {
     return this.http.post<Person>(this.endpoint + '/users', user);
   }
+
+  deleteUser(userId: number) {
+    return this.http.delete<Person>(this.endpoint  + `/users/${userId}`);
+  }
 }
