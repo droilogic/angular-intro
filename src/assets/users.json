@@ -3,7 +3,7 @@
     {
       "id": 1,
       "givenName": "John",
-      "surName": "Doe",
+      "surname": "Doe",
       "age": 30,
       "email": "john.doe@example.com",
       "phone": "123 Main St",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "givenName": "Jane",
-      "surName": "Doe",
+      "surname": "Doe",
       "age": 28,
       "email": "jane.doe@example.com",
       "phone": "123 Main St",
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "givenName": "Jim",
-      "surName": "Brown",
+      "surname": "Brown",
       "age": 45,
       "email": "jim.brown@example.com",
       "phone": "456 Park Ave",
@@ -30,7 +30,7 @@
     {
       "id": 4,
       "givenName": "Jill",
-      "surName": "Brown",
+      "surname": "Brown",
       "age": 42,
       "email": "jill.brown@example.com",
       "phone": "456 Park Ave",
@@ -39,7 +39,7 @@
     {
       "id": 5,
       "givenName": "Jake",
-      "surName": "Smith",
+      "surname": "Smith",
       "age": 36,
       "email": "jake.smith@example.com",
       "phone": "789 Broadway",
@@ -48,7 +48,7 @@
     {
       "id": 6,
       "givenName": "Judy",
-      "surName": "Smith",
+      "surname": "Smith",
       "age": 34,
       "email": "judy.smith@example.com",
       "phone": "789 Broadway",
@@ -57,7 +57,7 @@
     {
       "id": 7,
       "givenName": "Jack",
-      "surName": "Johnson",
+      "surname": "Johnson",
       "age": 50,
       "email": "jack.johnson@example.com",
       "phone": "321 Oak St",
@@ -66,7 +66,7 @@
     {
       "id": 8,
       "givenName": "Julie",
-      "surName": "Johnson",
+      "surname": "Johnson",
       "age": 48,
       "email": "julie.johnson@example.com",
       "phone": "321 Oak St",
@@ -75,7 +75,7 @@
     {
       "id": 9,
       "givenName": "Jerry",
-      "surName": "Davis",
+      "surname": "Davis",
       "age": 55,
       "email": "jerry.davis@example.com",
       "phone": "654 Pine St",
@@ -84,7 +84,7 @@
     {
       "id": 10,
       "givenName": "June",
-      "surName": "Davis",
+      "surname": "Davis",
       "age": 53,
       "email": "june.davis@example.com",
       "phone": "654 Pine St",
@@ -92,7 +92,7 @@
     },
     {
       "givenName": "Christodoulos",
-      "surName": "Fragkoudakis",
+      "surname": "Fragkoudakis",
       "age": 55,
       "email": "chfrag@aueb.gr",
       "phone": "Athens, Greece",
@@ -101,7 +101,7 @@
     },
     {
       "givenName": "George",
-      "surName": "Fragkoudakis",
+      "surname": "Fragkoudakis",
       "age": 19,
       "email": "george@ecample.com",
       "phone": "Palini, Greece",
@@ -110,7 +110,7 @@
     },
     {
       "givenName": "Peter",
-      "surName": "Jackson",
+      "surname": "Jackson",
       "age": 56,
       "email": "peter@wxample.com",
       "phone": "New Zeland",
