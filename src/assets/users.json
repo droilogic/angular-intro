@@ -116,15 +116,6 @@
       "phone": "New Zeland",
       "photoURL": "https://i.pravatar.cc/?img=44",
       "id": 13
-    },
-    {
-      "givenName": "John",
-      "surname": "Papadopoulos",
-      "age": 44,
-      "email": "john@papadopoulos.com",
-      "phone": "1234567",
-      "photoURL": "https://i.pravatar.cc/?img=64",
-      "id": 15
     }
   ]
 }
